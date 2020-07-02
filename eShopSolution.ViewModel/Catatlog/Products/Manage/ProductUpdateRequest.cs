@@ -1,4 +1,6 @@
-﻿namespace eShopSolution.Application.Catalog.Products.Dtos.Manage
+﻿using Microsoft.AspNetCore.Http;
+
+namespace eShopSolution.ViewModel.Catatlog.Products.Manage
 {
     public class ProductUpdateRequest
     {
@@ -10,5 +12,7 @@
         public string SeoDescription { set; get; }
         public string SeoAlias { set; get; }
         public string LanguageId { set; get; }
+        public IFormFile ThumbnailImage { get; set; }
+
     }
 }
