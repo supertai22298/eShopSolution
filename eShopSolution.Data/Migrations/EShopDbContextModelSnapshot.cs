@@ -294,7 +294,7 @@ namespace eShopSolution.Data.Migrations
                     b.Property<DateTime>("OrderDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2020, 7, 1, 14, 27, 2, 413, DateTimeKind.Local).AddTicks(5319));
+                        .HasDefaultValue(new DateTime(2020, 7, 2, 8, 20, 40, 23, DateTimeKind.Local).AddTicks(377));
 
                     b.Property<string>("ShipAddress")
                         .IsRequired()
@@ -388,7 +388,7 @@ namespace eShopSolution.Data.Migrations
                         new
                         {
                             Id = 1,
-                            DateCreated = new DateTime(2020, 7, 1, 14, 27, 2, 431, DateTimeKind.Local).AddTicks(5821),
+                            DateCreated = new DateTime(2020, 7, 2, 8, 20, 40, 37, DateTimeKind.Local).AddTicks(8304),
                             OriginalPrice = 100000m,
                             Price = 200000m,
                             Stock = 0,
